@@ -47,123 +47,137 @@
       "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
     },
     {
-      "id": 6,
-      "categorieId": 1,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "id": 21,
+      "categorieId": 2,
+      "questionLabel": "What is React?"
     },
     {
-      "id": 7,
-      "categorieId": 1,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "id": 22,
+      "categorieId": 2,
+      "questionLabel": "What is JSX in React?"
     },
     {
-      "id": 8,
-      "categorieId": 1,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "id": 23,
+      "categorieId": 2,
+      "questionLabel": "What is the difference between a class component and a functional component in React?"
     },
     {
-      "id": 9,
-      "categorieId": 1,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "id": 24,
+      "categorieId": 2,
+      "questionLabel": "What are React Hooks and why are they used?"
     },
     {
-      "id": 10,
-      "categorieId": 1,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "id": 25,
+      "categorieId": 2,
+      "questionLabel": "What is the purpose of useState in React?"
     },
     {
-      "id": 11,
-      "categorieId": 1,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "id": 26,
+      "categorieId": 2,
+      "questionLabel": "What is the Virtual DOM in React and how does it work?"
     },
     {
-      "id": 12,
-      "categorieId": 1,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "id": 27,
+      "categorieId": 2,
+      "questionLabel": "What is the purpose of useEffect in React?"
     },
     {
-      "id": 13,
-      "categorieId": 1,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "id": 28,
+      "categorieId": 2,
+      "questionLabel": "What is React Router and what is it used for?"
     },
     {
-      "id": 14,
-      "categorieId": 1,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "id": 29,
+      "categorieId": 2,
+      "questionLabel": "Explain the concept of props in React."
     },
     {
-      "id": 15,
-      "categorieId": 1,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "id": 30,
+      "categorieId": 2,
+      "questionLabel": "What is state lifting in React?"
     },
     {
-      "id": 16,
-      "categorieId": 1,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "id": 31,
+      "categorieId": 3,
+      "questionLabel": "What is Vue.js?"
     },
     {
-      "id": 17,
-      "categorieId": 1,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "id": 32,
+      "categorieId": 3,
+      "questionLabel": "What is the Vue instance?"
     },
     {
-      "id": 18,
-      "categorieId": 1,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "id": 33,
+      "categorieId": 3,
+      "questionLabel": "What are directives in Vue.js? Give examples."
     },
     {
-      "id": 19,
-      "categorieId": 1,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "id": 34,
+      "categorieId": 3,
+      "questionLabel": "What is the purpose of computed properties in Vue.js?"
     },
     {
-      "id": 20,
-      "categorieId": 1,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "id": 35,
+      "categorieId": 3,
+      "questionLabel": "Explain the concept of components in Vue.js."
+    },
+    {
+      "id": 36,
+      "categorieId": 3,
+      "questionLabel": "What is Vuex and when would you use it?"
+    },
+    {
+      "id": 37,
+      "categorieId": 3,
+      "questionLabel": "What is the difference between v-show and v-if in Vue.js?"
+    },
+    {
+      "id": 38,
+      "categorieId": 3,
+      "questionLabel": "What is the Vue Router used for?"
+    },
+    {
+      "id": 39,
+      "categorieId": 3,
+      "questionLabel": "What is a mixin in Vue.js?"
+    },
+    {
+      "id": 40,
+      "categorieId": 3,
+      "questionLabel": "How do you create a new Vue project using the Vue CLI?"
     }
   ],
 
   "answers": [
-    {
-      "questionId": 1,
-      "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A style in Angular",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A routing configuration",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
-    }
+    { "questionId": 1, "answerLabel": "A reusable building block for the user interface", "isCorrect": true },
+    { "questionId": 1, "answerLabel": "A style in Angular", "isCorrect": false },
+    { "questionId": 2, "answerLabel": "NgModule is used to declare and configure modules in Angular applications.", "isCorrect": true },
+    { "questionId": 2, "answerLabel": "NgModule is a component in Angular.", "isCorrect": false },
+
+    { "questionId": 21, "answerLabel": "A JavaScript library for building user interfaces", "isCorrect": true },
+    { "questionId": 21, "answerLabel": "A backend framework", "isCorrect": false },
+    { "questionId": 21, "answerLabel": "A database tool", "isCorrect": false },
+    { "questionId": 22, "answerLabel": "A syntax extension that allows writing HTML inside JavaScript", "isCorrect": true },
+    { "questionId": 22, "answerLabel": "A templating engine", "isCorrect": false },
+    { "questionId": 23, "answerLabel": "Functional components are simpler and use hooks instead of lifecycle methods.", "isCorrect": true },
+    { "questionId": 24, "answerLabel": "Hooks are functions that let you use React features without writing a class.", "isCorrect": true },
+    { "questionId": 25, "answerLabel": "useState allows adding local state to functional components.", "isCorrect": true },
+    { "questionId": 26, "answerLabel": "The Virtual DOM is an in-memory representation of the real DOM used for efficient updates.", "isCorrect": true },
+    { "questionId": 27, "answerLabel": "useEffect performs side effects like data fetching or DOM updates after render.", "isCorrect": true },
+    { "questionId": 28, "answerLabel": "React Router manages navigation between different views or pages in a React app.", "isCorrect": true },
+    { "questionId": 29, "answerLabel": "Props are inputs passed to components to make them reusable.", "isCorrect": true },
+    { "questionId": 30, "answerLabel": "State lifting means moving shared state to a common ancestor component.", "isCorrect": true },
+
+    { "questionId": 31, "answerLabel": "A progressive JavaScript framework for building user interfaces.", "isCorrect": true },
+    { "questionId": 32, "answerLabel": "The root object that controls the Vue app and links data to the DOM.", "isCorrect": true },
+    { "questionId": 33, "answerLabel": "Directives are special tokens in the markup that tell Vue to do something to a DOM element (e.g., v-if, v-for).", "isCorrect": true },
+    { "questionId": 34, "answerLabel": "Computed properties are cached values that depend on reactive data.", "isCorrect": true },
+    { "questionId": 35, "answerLabel": "Components are reusable Vue instances with a name and template.", "isCorrect": true },
+    { "questionId": 36, "answerLabel": "Vuex is a state management library for Vue applications.", "isCorrect": true },
+    { "questionId": 37, "answerLabel": "v-if removes elements from the DOM, while v-show only hides them with CSS.", "isCorrect": true },
+    { "questionId": 38, "answerLabel": "Vue Router is used for navigating between components or views.", "isCorrect": true },
+    { "questionId": 39, "answerLabel": "Mixins allow reusable chunks of logic to be shared between components.", "isCorrect": true },
+    { "questionId": 40, "answerLabel": "By running 'vue create project-name' using the Vue CLI.", "isCorrect": true }
   ],
 
   "users": [
