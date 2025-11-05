@@ -8,14 +8,14 @@ import { CategoriesService } from '../shared/services/categories.service';
   styleUrl: './categories.component.scss'
 })
 export class CategoriesComponent implements OnInit {
-
   constructor(private catgoriesService : CategoriesService) { }
-
+  categories: any[] = [];
   ngOnInit()  {
     console.log("Hello Categories Component");
     this.catgoriesService.getCategories().subscribe(categories => {
       this.catgoriesService.categories = categories;
-      console.log(this.catgoriesService.categories);
+      this.categories = this.catgoriesService.categories;
+      console.log(this.categories);
     });
   }
 
