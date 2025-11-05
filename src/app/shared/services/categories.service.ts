@@ -14,4 +14,15 @@ export class CategoriesService {
     return this.http.get('http://localhost:3000/categories');
   }
 
+  filterCategories(searchTerm: string) : any[] {
+    if (!searchTerm) {
+      return this.categories;
+    }
+
+    return this.categories.filter(category => 
+      category.nom.toLowerCase().includes(searchTerm.toLowerCase()) 
+      
+    )
+  }
+
 }
